@@ -1,0 +1,203 @@
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(13, 85, 13);
+}
+.content {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.nav-item a {
+  color: #fff;
+  margin-left: 1.5em;
+}
+.nav-item a:hover {
+  color: #fff;
+  font-weight: 2em;
+  text-transform: uppercase;
+  text-underline-offset: 0.45em;
+  text-decoration: underline;
+  border-bottom: 3px;
+}
+article .modal-content {
+  background-color: rgb(35, 97, 35);
+}
+.machines-intro {
+  background: url("../images/machinesbg3.jpg");
+  background-size: cover;
+  height: 50vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 2em;
+}
+.machines-intro h4 {
+  width: 40%;
+}
+#machinery {
+  width: 80%;
+  margin: 0 auto;
+}
+.services {
+  display: flex;
+  flex-direction: column;
+}
+.details {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 1em;
+  background-color: #fff;
+  border: 5px solid black;
+}
+.details .img {
+  width: 40%;
+  margin-bottom: 0;
+  background-color: inherit;
+}
+.details .img img {
+  width: 100%;
+  object-fit: cover;
+}
+.details .details-text {
+  margin-left: 0.7em;
+  width: 100%;
+  height: 100%;
+}
+.details-text .rent-btn {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+.rent-btn button {
+  margin-left: auto;
+  padding: 0;
+  margin-right: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.display-form {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(70, 155, 70);
+  text-align: center;
+}
+
+.input-styling {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5em;
+  font-weight: bold;
+}
+.input-styling input {
+  text-align: center;
+}
+.button-styling {
+  background-color: brown;
+  width: 30%;
+  margin: 0 auto;
+  margin-top: 1em;
+  margin-bottom: 0.7em;
+}
+.button-styling button {
+  width: 100%;
+  border: 0;
+  outline: none;
+  font-weight: bold;
+}
+.login-styling {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.login-styling input {
+  text-align: center;
+}
+.login-button button {
+  width: 100%;
+  border: 0;
+  outline: none;
+  font-weight: bold;
+}
+.contact-platforms {
+  margin-top: 1.75em;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+footer {
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 90%;
+  margin: 0 auto;
+}
+.footer-align {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+@media screen and (max-width: 700px) {
+  #machinery {
+    width: 95%;
+  }
+  .details {
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 2em;
+  }
+  .details .img {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 0;
+    margin-top: 0.7em;
+  }
+  .details-text {
+    margin-top: 1em;
+    width: 100%;
+  }
+  .details-text .rent-btn {
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: start;
+    margin-bottom: 0.5em;
+  }
+  .rent-btn button {
+    margin: 0;
+    padding: 0;
+  }
+
+  .contact-platforms {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  footer {
+    width: 100%;
+    background-color: rgb(13, 85, 13);
+  }
+  footer h3 {
+    color: #fff;
+  }
+  .footer-align {
+    margin-bottom: 2.5em;
+    color: #fff;
+  }
+  .footer-align h1 i {
+    color: #fff;
+  }
+}
